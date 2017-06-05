@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/videos/videos"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "坎璃的小屋",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":"true"
+  },
+  "tabBar":{
+      "color":"gray",
+      "selectedColor":"#1296db",
+      "list":[
+        {
+          "pagePath":"pages/index/index",
+          "text":"首页",
+          "iconPath":"image/coding-g.png",
+          "selectedIconPath":"image/coding-b.png"
+        },{
+          "pagePath":"pages/videos/videos",
+          "text":"视屏",
+          "iconPath":"image/video_g.png",
+          "selectedIconPath":"image/video_b.png"
+        },{
+          "pagePath":"pages/logs/logs",
+          "text":"logs",
+          "iconPath":"image/log_g.png",
+          "selectedIconPath":"image/log_s.png"
+        }
+      ]
+  },
+  "debug":true
+}
