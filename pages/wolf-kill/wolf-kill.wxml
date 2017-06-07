@@ -1,0 +1,25 @@
+<view class="page">
+    <view class="header">狼人杀</view>
+    <view class="sight-1">
+        <form bindSubmit="formSubmit" bindReset="formReset">
+            <view class="section section_gap">
+                <view class="Options">游戏设置</view>
+            </view>
+            <view class="section-2 section_gap">
+                <view class="people_title title">人数设置</view>
+                <input class="input people_content content" name="people" bindBlur="getPeople" type="text" placeholder="请输入玩家人数"></input>
+            </view>
+            <view class="section-2 section_gap">
+                <view class="model_title">游戏模式</view>
+                <radio-group class="radio-group" bindchange="radioChange">
+                  <label class="radio" wx:for="{{items}}">
+                    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+                  </label>
+                </radio-group>
+            </view>
+            <view class="btn-area">
+                <button formType="submit">提交</button>
+            </view>
+            </form>
+    </view>
+</view>

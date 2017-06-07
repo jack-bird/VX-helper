@@ -11,6 +11,7 @@
         <ul>
             <li><navigator url="../x-qldyx/x-qldyx" class="widget">视屏弹幕-测试</navigator></li>
             <li><navigator url="../sms/sms" class="widget">短信发送小工具-测试</navigator></li>
+            <li><navigator url="../wolf-kill/wolf-kill" class="widget">狼人杀-测试</navigator></li>
             <li>更新中</li>
         </ul>
     </view>

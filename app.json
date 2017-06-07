@@ -5,6 +5,7 @@
     "pages/videos/videos",
     "pages/x-qldyx/x-qldyx",
     "pages/sms/sms",
+    "pages/wolf-kill/wolf-kill"
   ],
   "window":{
     "backgroundTextStyle":"dark",

@@ -1,0 +1,86 @@
+.page{
+min-height:510px;
+height:100%;
+background-image:url("https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1496819631&di=98641d1003e996f280403b2a07d1a6f4&src=http://pic2.cxtuku.com/00/11/85/b347bb098d03.jpg");
+}
+
+.page .header{
+    min-height:50px;
+    height:100%;
+    text-align:center;
+    font-weight:bolder;
+    color:#fff;
+    background:#000;
+    font-size:20px;
+    line-height:50px;
+    opacity:0.5;
+}
+.page .section .Options{
+   margin-top:30px;
+   margin-left:15px;
+   color:#fff;
+   font-size:18px;
+   background:blue;
+   opacity:0.5;
+   width:75px;
+   padding:5px;
+   font-weight:bolder;
+}
+
+.people_title{
+float:left;
+}
+
+.section-2{
+    width:90%;
+    margin:0 auto;
+    border-radius:5px;
+    background:#fff;
+    margin-top:15px;
+    height:30px;
+    box-shadown:3px 3px 3px #fff;
+}
+
+.section-2 .people_title{
+    font-size:13px;
+    padding:5px;
+    line-height:20px;
+    width:30%;
+    text-align:center;
+    border-right:1px solid #ccc;
+}
+
+.section-2 .model_title{
+    font-size:13px;
+    padding:5px;
+    line-height:20px;
+    width:30%;
+    text-align:center;
+    border-right:1px solid #ccc;
+    float:left;
+}
+
+.section-2 .people_content{
+    font-size:15px;
+}
+
+.section-2 input{
+    padding-top:5px;
+    padding-right:25px;
+    text-align: right;
+}
+
+.section-2 radio-group{
+    font-size:13px;
+    float:left;
+    width:50%;
+}
+.section-2 .radio-group{
+    font-size:13px;
+    width:60%;
+    float:left;
+    padding-top:5px;
+    padding-left:5%;
+}
+
+.btn-area button{margin-top:30px;width:50%;color:darkblue;background:#6363ff;opacity:0.5;}
