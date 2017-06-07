@@ -1,0 +1,47 @@
+.page .page__hd{width:100%;background:#ddd;height:40px;margin-bottom:15px;}
+.page__desc{margin:0 auto;font-size:20px;font-weight:bolder;color:#fff;line-height:40px;text-align:center;display:block;}
+.page__content{
+    width:95%;
+    min-height:300px;
+    display:block;
+    border-radius:5px;
+    border:2px solid #777;
+    background:#eee;
+    margin:0 auto;
+}
+.section__title{
+    width:auto;
+    float:left;
+    font-size:15px;
+    line-height:32px;
+    margin-left:5px;
+}
+.section__content{
+    float:right;
+    margin-right:5px;
+}
+
+.section_gap{
+    clear:both;
+}
+
+.input{
+    background:#fff;
+    border:1px solid #eee;
+    margin-top:4px;
+}
+
+.textare__title{
+    clear:both;
+}
+
+.textare__content{
+    background:#fff;
+    border:1px solid #eee;
+    width:90%;
+    margin:0 auto;
+}
+.prompt{
+    color:red;
+    font-size:13px;
+}

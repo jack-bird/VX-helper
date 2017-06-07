@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/videos/videos"
+    "pages/videos/videos",
+    "pages/x-qldyx/x-qldyx",
+    "pages/sms/sms",
   ],
   "window":{
     "backgroundTextStyle":"dark",
@@ -12,7 +14,7 @@
     "enablePullDownRefresh":"true"
   },
   "tabBar":{
-      "color":"gray",
+      "color":"#999",
       "selectedColor":"#1296db",
       "list":[
         {
@@ -22,7 +24,7 @@
           "selectedIconPath":"image/coding-b.png"
         },{
           "pagePath":"pages/videos/videos",
-          "text":"视屏",
+          "text":"工具",
           "iconPath":"image/video_g.png",
           "selectedIconPath":"image/video_b.png"
         },{

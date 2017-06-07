@@ -1,3 +1,6 @@
+/**
+ * Created by 18048 on 2017/6/5.
+ */
 function getRandomColor () {
     var rgb = []
     for (var i = 0 ; i < 3; ++i){
@@ -14,22 +17,15 @@ Page({
     inputValue: '',
     data: {
         src: '',
-        config:{
-            tipshow:"show"
-        },
         danmuList: [
             {
-                text: '第 1s 出现的弹幕',
+                text: '测试弹幕',
                 color: '#ff0000',
                 time: 1
-            },
-            {
-                text: '第 3s 出现的弹幕',
-                color: '#ff00ff',
-                time: 3
-            }]
+            }
+            ]
     },
-    password: function(e) {
+    bindInputBlur: function(e) {
         this.inputValue = e.detail.value
     },
     bindButtonTap: function() {
@@ -50,16 +46,5 @@ Page({
             text: this.inputValue,
             color: getRandomColor()
         })
-    },
-    ok:function(){
-        if(this.inputValue == '31011'){
-            this.setData({
-                config:{
-                    tipshow:"hide"
-                }
-            })
-        }else{
-            console.log('密码错误！');
-        }
     }
 })

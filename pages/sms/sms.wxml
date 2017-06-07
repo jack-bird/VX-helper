@@ -1,0 +1,32 @@
+<view class="page">
+     <view class="page__hd">
+            <text class="page__desc">短信发送小工具-测试</text>
+     </view>
+     <view class="page__content">
+        <form bindsubmit="formSubmit" bindreset="formReset">
+            <view class="section section_gap">
+                <view class="section__title">是否开启群发功能:</view>
+                <switch class="switch section__content" bindchange="switchChange"></switch>
+            </view>
+            <view class="section section_gap {{config.tipshow_o}}">
+                  <view class="section__title">电话号码:</view>
+                  <input class="input section__content" name="phone" bindblur="getPhone" type="text" placeholder="请输入一个手机号"></input>
+            </view>
+            <view class="section section_gap {{config.tipshow_s}}">
+                  <view class="textare__title">电话号码:</view>
+                  <textarea class="textare__content" bindblur="getPhone" auto-height placeholder="自动变高,以逗号分割" value="{{td}}" />
+            </view>
+            <view class="section section_gap">
+                  <view class="textare__title">短信内容:</view>
+                  <textarea class="textare__content" name="content" bindblur="bindTextAreaBlur" auto-height placeholder="此处填写短信内容" />
+            </view>
+            <view class="section_gap">
+                  <view class="prompt">{{prompt}}</view>
+            </view>
+            <view class="btn-area">
+                <button formType="submit">提交</button>
+                <button formType="reset">重置</button>
+            </view>
+            </form>
+     </view>
+</view>
